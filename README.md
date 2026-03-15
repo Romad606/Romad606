@@ -1,7 +1,7 @@
 # Christopher Albrecht  
 ### Security Engineering | Cybersecurity | Network Engineering | Cloud Infrastructure
 
-homelab-infrastructure/screenshots/Home Lab.drawio.png
+![Home Lab Architecture](homelab-infrastructure/screenshots/Home%20Lab.drawio.png)
 
 Welcome to my cybersecurity portfolio.
 
@@ -19,6 +19,62 @@ Rather than learning concepts only through theory or certification study, I focu
 
 ---
 
+# Featured Labs & Projects
+
+These projects represent the core infrastructure and learning environments built within this lab.
+
+### Proxmox Virtualization Deployment
+Step-by-step configuration of enterprise server hardware and installation of the Proxmox hypervisor.
+
+**Topics Covered**
+- RAID storage configuration
+- SSD virtualization storage
+- server hardware preparation
+- hypervisor deployment
+
+➡ `labs/01-configure-server-and-install-proxmox.md`
+
+---
+
+### Virtual Network Architecture
+
+Design and implementation of segmented virtual networks within Proxmox.
+
+**Topics Covered**
+
+- vmbr bridge configuration
+- subnet segmentation
+- management vs internal networks
+- monitoring network architecture
+
+---
+
+### Active Directory Lab Environment
+
+Enterprise-style Windows domain environment used to practice system administration and security monitoring.
+
+**Topics Covered**
+
+- Windows Server deployment
+- domain controller configuration
+- domain client setup
+- authentication architecture
+
+---
+
+### Security Onion Monitoring Infrastructure
+
+Deployment of a blue-team monitoring environment for network analysis and intrusion detection.
+
+**Topics Covered**
+
+- network intrusion detection
+- packet analysis
+- traffic monitoring
+- SOC workflow simulation
+
+---
+
 # Certifications
 
 ![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-red)
@@ -32,6 +88,8 @@ Planned certifications:
 - CompTIA **Linux+**
 - CompTIA **CySA+**
 - Advanced cloud and security certifications
+
+These certifications are reinforced through hands-on projects documented throughout this repository.
 
 ---
 
@@ -49,9 +107,9 @@ My current technical development is centered around:
 ### Network Engineering
 
 - subnet design
-- VLAN and segmentation strategies
-- network troubleshooting
+- VLAN segmentation
 - traffic analysis
+- troubleshooting enterprise networks
 
 ### Cybersecurity Operations
 
@@ -74,31 +132,36 @@ My current technical development is centered around:
 Technologies currently used in my lab environments include:
 
 ### Virtualization
+
 - Proxmox Virtual Environment
 
 ### Infrastructure
-- Dell PowerEdge server hardware
-- enterprise storage configuration
+
+- Dell PowerEdge enterprise server
 - ECC memory architecture
+- SSD storage for virtualization
 
 ### Operating Systems
+
 - Windows Server
-- Windows 10/11
+- Windows 10 / 11
 - Ubuntu Linux
-- Kali Linux
 
 ### Security Monitoring
+
 - Security Onion
 - network intrusion detection
 - packet analysis
 
 ### Networking
+
 - subnet segmentation
-- virtual bridges
+- Proxmox virtual bridges
 - internal lab networks
 - firewall architecture (planned)
 
 ### Cloud Platforms
+
 - Amazon Web Services (AWS)
 - Microsoft Azure
 
@@ -110,7 +173,7 @@ Most projects in this repository are built on a dedicated virtualization environ
 
 Core components include:
 
-- **Dell PowerEdge server**
+- **Dell PowerEdge Server**
 - **48 GB ECC RAM**
 - **SSD storage for virtualization**
 - **Proxmox hypervisor**
@@ -140,3 +203,67 @@ This repository contains documentation and labs covering:
 - repeatable student lab exercises
 
 Example structure:
+
+
+---
+
+# Security Engineering Learning Roadmap
+
+This repository also serves as a record of my progression toward a Security Engineering role.
+
+### Phase 1 — Foundations
+
+- networking fundamentals
+- system administration
+- virtualization
+- cloud fundamentals
+
+### Phase 2 — Security Operations
+
+- intrusion detection
+- log analysis
+- threat monitoring
+- vulnerability assessment
+
+### Phase 3 — Security Engineering
+
+- infrastructure security architecture
+- network segmentation design
+- SIEM deployment
+- detection engineering
+
+---
+
+# Philosophy
+
+Strong cybersecurity skills are built by understanding how systems are designed, how networks operate, and how infrastructure behaves under real workloads.
+
+My learning approach emphasizes:
+
+- building real systems
+- documenting the process
+- troubleshooting failures
+- understanding architecture rather than memorizing tools
+
+---
+
+# Future Development
+
+This environment will continue expanding as new technologies are explored.
+
+Planned additions include:
+
+- pfSense firewall deployment
+- advanced network segmentation
+- expanded monitoring infrastructure
+- SIEM integrations
+- simulated attack environments
+- hybrid cloud security labs
+
+---
+
+# Connect
+
+If you are interested in cybersecurity, infrastructure engineering, or building technical lab environments, feel free to explore the documentation and labs contained in this repository.
+
+This repository serves as both a **technical portfolio and a learning resource.**

@@ -1,7 +1,7 @@
 # Christopher Albrecht  
 ### Security Engineering | Cybersecurity | Network Engineering | Cloud Infrastructure
 
-screenshots/Home Lab.drawio.png
+
 
 Welcome to my cybersecurity portfolio.
 

@@ -2,6 +2,7 @@
 ### Security Engineering | Cybersecurity | Network Engineering | Cloud Infrastructure
 
 ![Home Lab Architecture](https://raw.githubusercontent.com/Romad606/Romad606/main/Home%20Lab.drawio.png)
+### Home Lab Network Architecture
 
 Welcome to my cybersecurity portfolio.
 

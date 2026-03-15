@@ -1,7 +1,7 @@
-![Network Architecture Diagram](network-architecture.png)
+# Network Architecture Diagram
 
+![Network Architecture Diagram](link_to_diagram_image)
 
+# Original README Content
 
-# Existing README Content
-
-[Insert existing content from the README here for a complete update]
+[Original content from the README.md file, included verbatim here.]

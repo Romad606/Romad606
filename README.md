@@ -1,7 +1,8 @@
 # Christopher Albrecht  
 ### Security Engineering | Cybersecurity | Network Engineering | Cloud Infrastructure
 
-Home Lab.drawio.png
+[
+](https://github.com/Romad606/Romad606/blob/main/Home%20Lab.drawio.png)
 
 Welcome to my cybersecurity portfolio.
 

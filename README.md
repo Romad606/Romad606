@@ -1,6 +1,8 @@
 # Christopher Albrecht  
 ### Security Engineering | Cybersecurity | Network Engineering | Cloud Infrastructure
 
+Home Lab.drawio.png
+
 Welcome to my cybersecurity portfolio.
 
 This repository documents the hands-on labs, infrastructure builds, and security experiments I use to develop real-world experience in cybersecurity, network engineering, and infrastructure operations.

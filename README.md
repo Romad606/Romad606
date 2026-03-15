@@ -1,9 +1,6 @@
 # Christopher Albrecht  
 ### Security Engineering | Cybersecurity | Network Engineering | Cloud Infrastructure
 
-![Home Lab Architecture](https://raw.githubusercontent.com/Romad606/Romad606/main/Home%20Lab.drawio.png)
-### Home Lab Network Architecture
-
 Welcome to my cybersecurity portfolio.
 
 This repository documents the hands-on labs, infrastructure builds, and security experiments I use to develop real-world experience in cybersecurity, network engineering, and infrastructure operations.
@@ -18,6 +15,9 @@ My ultimate goal is to become a **Security Engineer**, and I am intentionally bu
 
 Rather than learning concepts only through theory or certification study, I focus on **building complete working environments** where I can deploy, configure, secure, and monitor systems similar to real production environments.
 
+### Home Lab Network Architecture
+
+![Home Lab Architecture](https://raw.githubusercontent.com/Romad606/Romad606/main/Home%20Lab.drawio.png)
 ---
 
 # Featured Labs & Projects

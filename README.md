@@ -1,78 +1,70 @@
-# Christopher Albrecht  
-### Security Engineering | Cybersecurity | Network Engineering | Cloud Infrastructure
+# Christopher Albrecht
+### Security Engineering | Network Engineering | AAA | Cloud Infrastructure
 
-Welcome to my cybersecurity portfolio.
+Welcome to my technical portfolio.
 
-This repository documents the hands-on labs, infrastructure builds, and security experiments I use to develop real-world experience in cybersecurity, network engineering, and infrastructure operations.
+I am a **Technical Support Engineer at TACACS.net**, working with enterprise authentication, authorization, and accounting (AAA), network access control, Windows infrastructure, and TACACS+ environments.
 
-My ultimate goal is to become a **Security Engineer**, and I am intentionally building toward that role by strengthening my foundations in:
+My background combines technical engineering with more than a decade of experience in security operations, leadership, project management, and high-risk operational environments. I am continuing to develop toward **Security and Cloud Architecture**, with a focus on understanding how infrastructure, identity, networking, and security systems work together.
 
-- network engineering
-- system administration
-- infrastructure architecture
-- security monitoring
-- cloud platforms
-
-Rather than learning concepts only through theory or certification study, I focus on **building complete working environments** where I can deploy, configure, secure, and monitor systems similar to real production environments.
-
-### Home Lab Network Architecture
-
-![Home Lab Architecture](https://raw.githubusercontent.com/Romad606/Romad606/main/Home%20Lab.drawio.png)
----
-
-# Featured Labs & Projects
-
-These projects represent the core infrastructure and learning environments built within this lab.
-
-### Proxmox Virtualization Deployment
-Step-by-step configuration of enterprise server hardware and installation of the Proxmox hypervisor.
-
-**Topics Covered**
-- RAID storage configuration
-- SSD virtualization storage
-- server hardware preparation
-- hypervisor deployment
-
-➡ `labs/01-configure-server-and-install-proxmox.md`
+This GitHub documents the labs, infrastructure builds, technical exercises, and engineering concepts I use to expand that knowledge through hands-on implementation.
 
 ---
 
-### Virtual Network Architecture
+# Current Technical Focus
 
-Design and implementation of segmented virtual networks within Proxmox.
+My professional and lab development currently centers around:
 
-**Topics Covered**
+### Authentication, Authorization & Accounting (AAA)
 
-- vmbr bridge configuration
-- subnet segmentation
-- management vs internal networks
-- monitoring network architecture
+- TACACS+ architecture
+- Centralized network device administration
+- Authentication and authorization workflows
+- Command authorization
+- Privilege management
+- Accounting and audit logging
+- Active Directory integration
+- Mixed-vendor network environments
 
----
+### Network Engineering
 
-### Active Directory Lab Environment
+- TCP/IP networking
+- Subnetting and network segmentation
+- Virtual Local Area Networks (VLANs)
+- Routing and switching
+- Packet analysis with Wireshark
+- Network troubleshooting
+- Network access control
 
-Enterprise-style Windows domain environment used to practice system administration and security monitoring.
+### Security Engineering
 
-**Topics Covered**
+- Infrastructure hardening
+- Identity and access control
+- Network segmentation
+- Security monitoring
+- Intrusion detection
+- Vulnerability assessment
+- Log analysis
 
-- Windows Server deployment
-- domain controller configuration
-- domain client setup
-- authentication architecture
+### Infrastructure & Virtualization
 
----
+- Proxmox Virtual Environment
+- VMware Workstation
+- Windows Server
+- Active Directory
+- Linux infrastructure
+- Virtual networking
+- Enterprise lab architecture
 
-### Security Onion Monitoring Infrastructure
+### Cloud
 
-Deployment of a blue-team monitoring environment for network analysis and intrusion detection.
-
-**Topics Covered**
-
-- network intrusion detection
-- packet analysis
-- traffic monitoring
-- SOC workflow simulation
+- Amazon Web Services (AWS)
+- Microsoft Azure
+- Cloud networking
+- Virtual Private Cloud (VPC) architecture
+- Cloud identity and access concepts
+- Hybrid infrastructure
+- Cloud security architecture
 
 ---
 
@@ -81,190 +73,266 @@ Deployment of a blue-team monitoring environment for network analysis and intrus
 ![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B-red)
 ![CompTIA Network+](https://img.shields.io/badge/CompTIA-Network%2B-red)
 ![CompTIA Security+](https://img.shields.io/badge/CompTIA-Security%2B-red)
+![CompTIA CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-red)
+![ISC2 CC](https://img.shields.io/badge/ISC2-Certified%20in%20Cybersecurity-green)
 ![AWS Cloud Practitioner](https://img.shields.io/badge/AWS-Cloud%20Practitioner-orange)
-![Azure Fundamentals](https://img.shields.io/badge/Microsoft-Azure%20Fundamentals-blue)
+![Azure Fundamentals](https://img.shields.io/badge/Microsoft-AZ--900%20Azure%20Fundamentals-blue)
 
-Planned certifications:
+### Current Certifications
 
-- CompTIA **Linux+**
-- CompTIA **CySA+**
-- Advanced cloud and security certifications
+- CompTIA **A+**
+- CompTIA **Network+**
+- CompTIA **Security+**
+- CompTIA **Cybersecurity Analyst (CySA+)**
+- ISC2 **Certified in Cybersecurity (CC)**
+- AWS **Certified Cloud Practitioner**
+- Microsoft **Azure Fundamentals (AZ-900)**
 
-These certifications are reinforced through hands-on projects documented throughout this repository.
+Continued development includes Linux, Cisco networking, advanced security engineering, and cloud architecture.
 
 ---
 
-# Technical Focus
+# Home Lab Network Architecture
 
-My current technical development is centered around:
+![Home Lab Architecture](https://raw.githubusercontent.com/Romad606/Romad606/main/Home%20Lab.drawio.png)
 
-### Security Engineering Foundations
+My primary home lab is built around a dedicated **Proxmox virtualization server** and segmented network architecture designed to simulate enterprise infrastructure.
 
-- network segmentation
-- infrastructure hardening
-- security monitoring
-- threat detection
+The environment allows me to build, break, troubleshoot, secure, and monitor systems without relying solely on certification labs or simulations.
 
-### Network Engineering
+---
 
-- subnet design
-- VLAN segmentation
-- traffic analysis
-- troubleshooting enterprise networks
+# Featured Labs & Projects
 
-### Cybersecurity Operations
+## Proxmox Virtualization Environment
 
-- blue team monitoring
-- intrusion detection systems
-- log analysis
-- SOC workflow simulation
+Deployment and administration of a dedicated virtualization server used as the foundation of my security lab.
 
-### Infrastructure Engineering
+**Topics Covered**
 
-- virtualization architecture
-- enterprise server configuration
-- Linux server administration
-- Windows Active Directory environments
+- Enterprise server configuration
+- Redundant Array of Independent Disks (RAID) storage
+- Virtual machine deployment
+- Virtual networking
+- Resource allocation
+- Infrastructure troubleshooting
+
+➡ `labs/01-configure-server-and-install-proxmox.md`
+
+---
+
+## Segmented Network Architecture
+
+Design of multiple isolated networks used to separate infrastructure, security monitoring, and vulnerable systems.
+
+**Topics Covered**
+
+- Subnet design
+- Virtual bridges
+- Network segmentation
+- Firewall routing
+- Security zones
+- Traffic visibility
+
+---
+
+## Active Directory Environment
+
+Windows domain infrastructure used for identity, authentication, administration, and security testing.
+
+**Topics Covered**
+
+- Windows Server
+- Domain controller deployment
+- Domain Name System (DNS)
+- Domain-joined clients
+- User and group administration
+- Authentication architecture
+- Security logging
+
+---
+
+## Security Monitoring & SIEM
+
+Security monitoring environment built around **Suricata and the Elastic Stack**.
+
+**Technologies**
+
+- Suricata
+- Elasticsearch
+- Logstash
+- Kibana
+- Elastic Agent
+- Wireshark
+
+**Topics Covered**
+
+- Network intrusion detection
+- Event JSON (EVE JSON) processing
+- Log ingestion
+- Security Information and Event Management (SIEM)
+- Traffic analysis
+- Detection validation
+- Dashboard development
+
+Traffic can be generated and analyzed within the lab to validate monitoring and detection capabilities.
+
+---
+
+## TACACS+ & AAA Lab
+
+A dedicated lab environment for developing deeper knowledge of centralized network device administration and Authentication, Authorization, and Accounting (AAA).
+
+**Topics Explored**
+
+- TACACS+ architecture
+- Network device authentication
+- Command authorization
+- Privilege levels
+- Active Directory integration
+- Accounting
+- Network Access Server (NAS) communication
+- Multi-vendor authorization concepts
+- Packet analysis
+- Troubleshooting authentication workflows
+
+The environment uses virtualization to safely simulate enterprise authentication and network administration scenarios.
 
 ---
 
 # Technology Stack
 
-Technologies currently used in my lab environments include:
-
 ### Virtualization
 
 - Proxmox Virtual Environment
+- VMware Workstation
 
-### Infrastructure
-
-- Dell PowerEdge enterprise server
-- ECC memory architecture
-- SSD storage for virtualization
-
-### Operating Systems
+### Microsoft Infrastructure
 
 - Windows Server
+- Active Directory
 - Windows 10 / 11
-- Ubuntu Linux
+- PowerShell
 
-### Security Monitoring
+### Linux
 
-- Security Onion
-- network intrusion detection
-- packet analysis
+- Ubuntu
+- Kali Linux
+- Linux server administration
+
+### Security
+
+- Suricata
+- Elasticsearch
+- Logstash
+- Kibana
+- Elastic Agent
+- Wireshark
+- Vulnerability and network testing tools
 
 ### Networking
 
-- subnet segmentation
-- Proxmox virtual bridges
-- internal lab networks
-- firewall architecture (planned)
+- TCP/IP
+- Subnetting
+- VLANs
+- Virtual networking
+- Routing
+- Firewall architecture
+- pfSense
+- WireGuard
+- TACACS+
 
-### Cloud Platforms
+### Cloud
 
 - Amazon Web Services (AWS)
 - Microsoft Azure
+- Cloud networking
+- Identity and access concepts
+- Hybrid infrastructure
 
 ---
 
-# Home Lab Environment
+# Engineering Approach
 
-Most projects in this repository are built on a dedicated virtualization environment designed to simulate real enterprise infrastructure.
+My approach to technical development is based on understanding **systems as a whole**, rather than learning individual tools in isolation.
 
-Core components include:
+I focus on the relationship between:
 
-- **Dell PowerEdge Server**
-- **48 GB ECC RAM**
-- **SSD storage for virtualization**
-- **Proxmox hypervisor**
+**Identity → Network → Infrastructure → Security → Monitoring → Cloud**
 
-The lab environment includes:
+The goal is not simply to know how to configure a product, but to understand:
 
-- Active Directory domain infrastructure
-- Windows client systems
-- Linux servers
-- network monitoring infrastructure
-- segmented internal networks
+- What problem the technology solves
+- Where it fits within an architecture
+- How it communicates with surrounding systems
+- How it should be secured
+- How failures can be diagnosed
+- How the solution can scale into larger environments
 
-This allows realistic experimentation with both **administrative and security-focused scenarios**.
+I reinforce these concepts by building working environments, documenting implementations, troubleshooting failures, and analyzing the underlying protocols.
 
 ---
 
-# Repository Contents
+# Professional Development
 
-This repository contains documentation and labs covering:
+My career development is progressing across three connected areas:
 
-- enterprise server configuration
-- Proxmox virtualization deployment
-- virtual network design
-- Active Directory labs
-- Security Onion monitoring infrastructure
-- troubleshooting lessons learned
-- repeatable student lab exercises
+### Security Engineering
 
-Example structure:
+Developing deeper knowledge of identity, network security, monitoring, authentication, authorization, infrastructure security, and security architecture.
 
+### Network & Infrastructure Engineering
 
----
+Strengthening the networking, operating system, virtualization, and infrastructure knowledge that modern security systems depend on.
 
-# Security Engineering Learning Roadmap
+### Cloud Security & Architecture
 
-This repository also serves as a record of my progression toward a Security Engineering role.
+Expanding these concepts into Amazon Web Services (AWS), Microsoft Azure, hybrid infrastructure, cloud networking, and identity architecture.
 
-### Phase 1 — Foundations
-
-- networking fundamentals
-- system administration
-- virtualization
-- cloud fundamentals
-
-### Phase 2 — Security Operations
-
-- intrusion detection
-- log analysis
-- threat monitoring
-- vulnerability assessment
-
-### Phase 3 — Security Engineering
-
-- infrastructure security architecture
-- network segmentation design
-- SIEM deployment
-- detection engineering
+My long-term focus is **Security and Cloud Architecture** — understanding complex technical problems, defining the desired security outcome, identifying the appropriate technologies and specialists, and helping drive solutions from design through implementation.
 
 ---
 
-# Philosophy
+# Documentation Philosophy
 
-Strong cybersecurity skills are built by understanding how systems are designed, how networks operate, and how infrastructure behaves under real workloads.
+I use GitHub as more than a place to store completed projects.
 
-My learning approach emphasizes:
+It is a technical engineering journal documenting:
 
-- building real systems
-- documenting the process
-- troubleshooting failures
-- understanding architecture rather than memorizing tools
+- Systems I build
+- Architectures I design
+- Problems I encounter
+- Troubleshooting processes
+- Lessons learned
+- Security concepts
+- Repeatable lab exercises
+
+Documenting both successful implementations and failures helps reinforce the reasoning behind the technology rather than simply recording the final configuration.
 
 ---
 
-# Future Development
+# Current Development
 
-This environment will continue expanding as new technologies are explored.
+Areas I am continuing to expand include:
 
-Planned additions include:
-
-- pfSense firewall deployment
-- advanced network segmentation
-- expanded monitoring infrastructure
-- SIEM integrations
-- simulated attack environments
-- hybrid cloud security labs
+- TACACS+ and AAA architecture
+- Active Directory integration
+- Cisco networking
+- Multi-vendor network environments
+- Linux administration
+- Cloud networking
+- AWS and Azure infrastructure
+- Identity and Access Management (IAM)
+- Hybrid cloud architecture
+- Security engineering
+- Security architecture
 
 ---
 
 # Connect
 
-If you are interested in cybersecurity, infrastructure engineering, or building technical lab environments, feel free to explore the documentation and labs contained in this repository.
+This repository represents the intersection of my **professional engineering work, home lab development, certification training, and continued technical education**.
 
-This repository serves as both a **technical portfolio and a learning resource.**
+I am particularly interested in **network security, AAA, identity, infrastructure security, cloud architecture, and security engineering**.
+
+Feel free to explore the projects and documentation throughout this repository.
